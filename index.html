@@ -1,29 +1,53 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <title>Assignment 3</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <script async src="./javascript/index.js"></script>
-  </head>
-  <body>
-    <h1>Assignment 3!</h1>
-    <h4 id='date'></h4>
+	<head>
+		<title>Fancify Shamcify</title>
 
-    <div class="image-section">
-      <div class="section-style">
-        <img src="https://s3-media2.ak.yelpcdn.com/bphoto/tHmgxKC9dib-oHm70OWtow/o.jpg" alt="Failed to load image" />
-        <p>Example image</p>
-      </div>
-      <h1>My Github hosted website</h1>
-    </div>
-  </body>
+		<!-- link to your script file here -->
+	<form>
+		<fieldset>
+		
+			<legend>Text</legend>
+			<textarea class="xlarge" id="xlInput3" name="xlInput3" rows="4" columns="30"></textarea>
+		
+		</fieldset>
+		<!--</form> -->
+
+	<form>
+		<fieldset>
+		
+			<legend>Fancify</legend>
+		<!--<script type="text/javascript" src="fancifymytext.js"></script>  -->
+
+		<!--	<button type="button">Bigger!</button> 
+			<input type="radio" id="html" name="bigger" value="HTML">  -->
+			<script>
+				
+				//let button = document.createElement('Button');
+				//button.addEventListener("click", myfunction());
+			</script>
+			<script type="text/javascript" src="fancifymytext.js"></script>
+			<button type="button" onclick="myfunction()"> Bigger!</button> 
+		
+			<!--<input type="button" value="Large" onclick="document.getElementById('xlInput3').style.fontSize = '24.0em'"> -->
+			
+			<input type="radio" onchange="styles()" id="style" name="2" value="CSS">
+  			<label for="html">FancyShmancy</label><br>
+
+  			<input type="radio" onchange="nostyles()" id="nostyle" name="2" value="CSS">
+  			<label for="css">BoringBetty</label><br>
+
+			<input type="radio" onchange="moo()" id="Moo" name="2" value="CSS">
+  			<label for="css">Moo</label><br>  
+		</fieldset>
+	</form>
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+
+		<!-- Your UI controls go here -->
+		
+	</body>
 </html>
-<!--
-<html>
-<body>
-
-</body>
-
-</html>
--->
